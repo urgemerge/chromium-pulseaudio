@@ -1,6 +1,6 @@
 # chromium-pulseaudio
 
-Chromium browser Docker image with sound via the host's pulseaudio daemon. One could use the following parameters in order to get sound from the Chromium container. Tested with pulseaudio 8.0 on Ubuntu 16.04.1.
+Chromium browser Docker image based on Debian Jessie with sound via the host's pulseaudio daemon. One could use the following parameters in order to get sound from the Chromium container. Tested with pulseaudio 8.0 on Ubuntu 16.04.1.
 ```
 xhost +:local
 docker run \
