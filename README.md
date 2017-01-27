@@ -7,6 +7,7 @@ docker run \
         --privileged \
         --rm \
         -it \
+        --shm-size=256m \
         -e DISPLAY=unix$DISPLAY \
         -e TARGETUID=$UID \
         -e XDG_RUNTIME_DIR=/run/user/$UID \
